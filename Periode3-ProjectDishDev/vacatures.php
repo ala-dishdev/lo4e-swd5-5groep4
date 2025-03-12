@@ -34,7 +34,7 @@
         <?php include("header.php");?>
     </header>
 <main>
-    <section class="vacatures"
+    <section class="vacatures">
         <h1>Werken bij Vegan Food</h1>
         <h2>Ons Vacatures</h2>
         <article class="vacature">
