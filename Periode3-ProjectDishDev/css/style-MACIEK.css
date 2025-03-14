@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
     margin: 0;
     padding: 0;
 }
@@ -19,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.35rem 1.5rem;
+    padding: 0;
 }
 
 .logo img {
@@ -88,6 +89,7 @@ nav a {
 .language-select select option:checked {
     color: #000000; /* Grijs */
 }
+
 /* Lunch en Diner */
 .main-menu{
     background-color: var(--primary-color);
@@ -177,12 +179,14 @@ nav a {
     color: #264653;
 }
 
+
+
 /* Openingstijden en Locatie */ 
 .openingstijden-locatie {
     font-family: "Poppins";
     margin: 0;
     padding: 0;
-    background: url(https://media.istockphoto.com/id/539199982/nl/foto/blur-dark-bar-or-cafe-at-night.jpg?s=1024x1024&w=is&k=20&c=s4C0GOsD0m0sJI7RfrtvN3S05cV7rh70bDUuDgiTi2I=) no-repeat center center/cover;
+    background: url("https://media.istockphoto.com/id/539199982/nl/foto/blur-dark-bar-or-cafe-at-night.jpg?s=1024x1024&w=is&k=20&c=s4C0GOsD0m0sJI7RfrtvN3S05cV7rh70bDUuDgiTi2I=") no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,6 +278,58 @@ iframe {
     border-radius: 10px;
 }
 
+/* Tablet Versie */
+@media (max-width: 768px){
+    .openingstijden, .locatie{
+        width: 60%;
+    }
+
+    .image-gallery{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
+}
+
+/* Mobiele Versie */
+@media (max-width: 480px){
+    .image-gallery{
+        display: none;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .openingstijden, .locatie, .contact {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .openingstijden {
+        order: 1;
+    }
+
+    .locatie {
+        order: 2;
+    }
+
+    .contact {
+        order: 3;
+    }
+
+    iframe {
+        order: 4;
+        width: 90%;
+}
+}
+
+
 
 /* Vacatures */
 .vacature-site {
@@ -283,6 +339,23 @@ iframe {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
+    background-image: linear-gradient(#1CB684( 30, 46, 59, 0.99),#1CB684(30,46,59, 0.99)), url("/images/background.png");
+}
+
+.vacature-site h1{
+    font-family: "Pacifico";
+    color: #FCF087;
+}
+
+.vacatures h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vacature-site h5{
+    font-family: "Pacifico";
+    color: white;
+    font-size: large;
 }
 
 .vacatures {
@@ -290,56 +363,119 @@ iframe {
     justify-content: center;
     flex-wrap: wrap;
     margin: 20px;
+    margin-top: 0;
+    overflow-y: hidden;
+    gap: 20px;
 }
 
 .vacature {
     background-color: white;
     color: black;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    width: 15vw;
-    margin-top: 5vw;
-    text-align: center;
+    border-radius: 12px;
+    padding: 0;
+    margin: 20px;
+    width: 15vw; 
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; 
+    overflow: hidden; 
+    position : relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.vacature p {
-    font-family: "Poppins";
-    color: black;
-}
-
-.vacature h2 {
-    align-self: center
+.vacature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .vacature img {
     width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+    height: 15vw;
+    object-fit: cover; 
+    border-radius: 12px 12px 0 0; 
+}
+
+.vacature h2 {
+    font-family: "Poppins", sans-serif;
+    color: #1CB684;
+    margin: 15px 10px 5px;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vacature p {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin: 5px 15px 15px;
+    font-size: 0.9rem;
 }
 
 .vacature button {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     background-color: #1E2E3B;
     color: white;
-    border-radius: 20px;
-    width: 10vw;
+    border-radius: 30px;
+    width: 80%;
     height: 6vh;
-    align-self: flex-end;
-    transition: 0.4s ease;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    bottom: 15px;
 }
 
-.vacature button:hover{
-    background-color:#264653;
+.vacature button:hover {
+    background-color: #264653;
+    transform: scale(1.05);
+}
+
+
+.vacature button:hover {
+    background-color: #264653;
     color: white;
 }
+/* Tablet Versie*/
+@media (max-width: 768px){
+    .vacature{
+        width: 45%;
+    }
+}
+/* Mobiele Versie */
+@media (max-width: 480px){
 
-.vacature:hover{
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    .body{
+         overflow-x: hidden;
+    }
+
+    .vacatures{
+        flex-direction: column;
+        align-items: center;
+        overflow-y: hidden;
+    }
+
+    .vacature{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        min-height: 40vh;
+    }
+
+    .vacature-site h5{
+        font-size: medium;
+        margin: 0 10px;
+    }
+
+    .vacature img{
+        height: auto;
+        max-height: 30vh;
+        object-fit: cover;
 }
 
 /* Hamburger menu */         
@@ -435,4 +571,5 @@ footer {
     .footer-col img {
         height: 10vw;
     }
+}
 }
