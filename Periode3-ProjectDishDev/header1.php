@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/flag-icons.min.css">
+    <script src="JS/hamburgermenu.js" defer></script>
 </head>
 
 <body>
@@ -19,11 +20,10 @@
             <article class="logo">
                 <img src="images/beeldmerk_logo_vegan_food.png" alt="vegan food logo">
             </article>
-            <button class="hamburger">
+            <button class="hamburger" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
-                <i class="fa-solid fa-xmark"></i>
             </button>
-            <article class="nav-links">
+            <article class="nav-links" id="nav-links">
                 <a href="index.php"><i class="fi fi-se"></i>Home</a>
                 <a href="lunch&diner.php">Lunch & Diner</a>
                 <a href="locatie.php">Openingstijden & Locatie</a>
