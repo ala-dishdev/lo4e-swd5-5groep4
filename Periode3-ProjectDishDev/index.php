@@ -47,8 +47,8 @@
                 <p>Welkom bij ons vegan restaurant, waar smaakvolle gerechten en duurzaamheid hand in hand gaan voor een
                     gezonde toekomst!</p>
                 <article class="button">
-                    <a href="reserveren.html"><button class="reserveren-btn">Reserveren</button></a>
-                    <a href="contact.html"><button class="contact-btn">Contact</button></a>
+                    <a href="reserveren.php"><button class="reserveren-btn">Reserveren</button></a>
+                    <a href="locatie.php"><button class="contact-btn">Contact</button></a>
                 </article>
             </article>
             <article class="food-image-overlay">
