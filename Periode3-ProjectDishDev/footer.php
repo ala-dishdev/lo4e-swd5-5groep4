@@ -30,6 +30,7 @@
             <h4>Openingstijden</h4>
             <article class="tijd">
                 <p>Maandag - Zaterdag: 09:00 - 22:00</p>
+                <br>
             </article>
             <article class="tijd">
                 <p>Zondag: 10:00 - 20:00</p>
