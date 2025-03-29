@@ -60,7 +60,7 @@
             <article class="informatie-rand">
                 <article class="informatie-kaart">
                     <article class="icon">
-                        <img src="img/map_pin.png" alt="">
+                        <img src="images/map_pin.png" alt="">
                     </article>
                     <article class="tekst">
                         <h3>Locatie</h3>
@@ -69,7 +69,7 @@
                 </article>
                 <article class="informatie-kaart">
                     <article class="icon">
-                        <img src="img/clock.png" alt="">
+                        <img src="images/clock.png" alt="">
                     </article>
                     <article class="tekst">
                         <h3>Locatie</h3>
@@ -78,7 +78,7 @@
                 </article>
                 <article class="informatie-kaart">
                     <article class="icon">
-                        <img src="img/reserveren.png" alt="">
+                        <img src="images/reserveren.png" alt="">
                     </article>
                     <article class="tekst">
                         <h3>Locatie</h3>
@@ -111,7 +111,7 @@
                     </article>
                 </article>
                 <article class="chef-image">
-                    <img src="img/chef.png" alt="chef-kok">
+                    <img src="images/chef.png" alt="chef-kok">
                 </article>
             </article>
         </section>
@@ -128,7 +128,7 @@
             <article class="kaart1-rand">
                 <article class="kaart1">
                     <article class="broccoli">
-                        <img src="img/broccoli.png" alt="">
+                        <img src="images/broccoli.png" alt="">
                     </article>
                     <h3>100% Vegan</h3>
                     <p>Bij ons is alles 100% vegan! Van ontbijt tot diner, we serveren enkel plantaardige gerechten die
@@ -137,7 +137,7 @@
                 </article>
                 <article class="kaart1">
                     <article class="salade">
-                        <img src="img/salade.png" alt="">
+                        <img src="images/salade.png" alt="">
                     </article>
                     <h3>Vers Bereid Eten</h3>
                     <p>Alle gerechten worden met zorg en liefde vers bereid, direct van de keuken naar jouw tafel. Zo
@@ -145,7 +145,7 @@
                 </article>
                 <article class="kaart1">
                     <article class="discount">
-                        <img src="img/discount.png" alt="">
+                        <img src="images/discount.png" alt="">
                     </article>
                     <h3>Vouchers Beschikbaar</h3>
                     <p>Geef het cadeau van smaak en duurzaamheid! Onze vouchers zijn het perfecte geschenk voor elke
@@ -162,7 +162,7 @@
                     <article class="kaart-lijst">
                         <article class="kaart">
                             <article class="kaart-foto">
-                                <img src="img/hutspot1.png" alt="gerecht hutspot">
+                                <img src="images/hutspot1.png" alt="gerecht hutspot">
                                 <p class="kaart-tag">50% Korting</p>
                             </article>
                             <article class="kaart-content">
@@ -173,7 +173,7 @@
                         </article>
                         <article class="kaart">
                             <article class="kaart-foto">
-                                <img src="img/image.png" alt="gerecht romige pompoensoep">
+                                <img src="images/image.png" alt="gerecht romige pompoensoep">
                                 <p class="kaart-tag">30% Korting</p>
                             </article>
                             <article class="kaart-content">
@@ -184,7 +184,7 @@
                         </article>
                         <article class="kaart">
                             <article class="kaart-foto">
-                                <img src="img/image1.png" alt="gerecht gefrituurde artisjok">
+                                <img src="images/image1.png" alt="gerecht gefrituurde artisjok">
                                 <p class="kaart-tag">50% Korting</p>
                             </article>
                             <article class="kaart-content">
@@ -196,7 +196,7 @@
                     </article>
                 </article>
                 <article class="chef-specials-image">
-                    <img src="img/chef_specials.png" alt="chef-kok">
+                    <img src="images/chef_specials.png" alt="chef-kok">
                 </article>
             </article>
         </section>
@@ -208,7 +208,7 @@
                     <article class="kaart-lijst">
                         <article class="kaart">
                             <article class="kaart-foto">
-                                <img src="img/image2.png" alt="gerecht jackfruit rendang">
+                                <img src="images/image2.png" alt="gerecht jackfruit rendang">
                             </article>
                             <article class="kaart-content">
                                 <h3 class="kaart-titel">Jackfruit Rendang</h3>
@@ -218,7 +218,7 @@
                         </article>
                         <article class="kaart">
                             <article class="kaart-foto">
-                                <img src="img/image3.png" alt="gerecht beyond burger">
+                                <img src="images/image3.png" alt="gerecht beyond burger">
                             </article>
                             <article class="kaart-content">
                                 <h3 class="kaart-titel">Beyond Burger</h3>
@@ -238,7 +238,7 @@
                         </article>
                         <article class="kaart">
                             <article class="kaart-foto">
-                                <img src="img/image5.png" alt="gerecht gemende salade">
+                                <img src="images/image5.png" alt="gerecht gemende salade">
                             </article>
                             <article class="kaart-content">
                                 <h3 class="kaart-titel">Gemengde Salade</h3>

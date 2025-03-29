@@ -28,6 +28,9 @@
     <main class="openingstijden-locatie">
         <section class="box">
             <article class="openingstijden">
+                <article class="icon">
+                    <img src="images/clock.png" alt="">
+                </article>
                 <h2>Openingstijden</h2>
                 <p>Maandag: 09:00 - 22:00</p>
                 <p>Dinsdag: 09:00 - 22:00</p>
@@ -51,6 +54,9 @@
                     alt="Buitenkant van het restaurant">
             </section>
             <article class="locatie">
+                <article class="icon">
+                    <img src="images/map_pin.png" alt="">
+                </article>
                 <h2>Locatie</h2>
                 <p>Keizersgracht 212, 1016 DX Amsterdam</p>
                 <iframe
