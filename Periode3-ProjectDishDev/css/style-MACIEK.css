@@ -597,6 +597,586 @@ iframe {
         object-fit: cover;
 }
 
+/* HERO */
+
+#hero {
+    display: flex;
+    color: var(--tekst-color);
+    padding: 0 5%;
+    position: relative;
+    height: 120vh;
+    margin-top: -100px;
+    background-color: var(--primary-color);
+}
+
+.hero-content {
+    margin-top: 100px;
+    max-width: 60%; /* Adjust based on the layout in the image */
+}
+
+#hero h1 {
+    font-size: 4.7vw;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    width: 100vh;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    width: 30vw;
+}
+
+.hero-content mark {
+    background-color: #1CB684;
+    color: #FCF087;
+}
+
+#hero .button {
+    display: flex;
+    gap: 15px;
+}
+
+#hero .reserveren-btn {
+    background: rgb(30,46,59);
+    background: linear-gradient(117deg, rgba(30,46,59,1) 37%, rgba(46,66,83,1) 100%);
+    color: white;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+#hero .contact-btn {
+    background: rgb(255,255,255);
+    background: linear-gradient(132deg, rgba(255,255,255,1) 27%, rgba(244,243,243,1) 64%, rgba(171,171,171,1) 100%);
+    color: var(--tweede-tekst-color);
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.food-image-overlay {
+    position: absolute;
+    bottom: 0%; /* Adjusted to move the image up */
+    right: 0%; /* Adjusted to move the image further right */
+    width: 100%; /* Increased width to make the image larger */
+    max-width: 1200px; /* Increased max-width as well */;
+    overflow: hidden;
+}
+
+.food-image-overlay img {
+    height: 1000px;
+    width: 1300px;
+    object-fit: cover;
+    object-position: bottom;
+    display: block; /* Remove any extra space below the image */
+}
+
+/* INFORMATIE */
+
+#informatie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #000;
+    background-color: #fff;
+}
+
+.icon {
+    background-color: var(--primary-color);
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px;
+}
+
+.informatie-rand {
+    display: flex;
+    padding: 30px;
+    gap: 180px;
+}
+
+.informatie-kaart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tekst {
+    align-items: center;
+    justify-content: center;
+}
+
+.tekst h3 {
+    margin-bottom: -16px;
+}
+
+/* OVER ONS */
+
+#over-ons {
+    background-color: #F9F9F9;
+    height: 800px;
+    padding: 0 9%;
+    display: flex;
+
+}
+
+.over-ons-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.over-ons-tekst {
+    justify-content: center;
+    align-items: center;
+}
+
+#over-ons h3 {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+#over-ons h2 {
+    font-size: 40px;
+}
+
+#over-ons p {
+    width: 60%;
+}
+
+#over-ons h2 mark {
+    background-color: #F9F9F9;
+    color: var(--primary-color);
+
+}
+
+.over-ons-tekst {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.chef-image img {
+    width: 50vw;
+    max-width: 910px;
+    display: block;
+}
+
+.lijn:before{
+    content:" ";
+    display: block;
+    height: 3px;
+    width: 25px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: var(--primary-color);
+}
+
+.lijn{
+    font-size: 18px;
+    position: relative;
+}
+
+.lijn{
+    position: relative;
+    max-width: 330px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+.lees-meer-btn {
+    background: rgb(28,182,132);
+    background: linear-gradient(106deg, rgba(28,182,132,1) 72%, rgba(49,219,163,1) 90%, rgba(54,235,176,1) 100%);
+    color: white;
+    margin: 20px 0px 0 0;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* SPECIALS */
+
+#specials {
+    background-color: #F9F9F9;
+    height: 600px;
+    padding: 0 9%;
+    justify-items: center;
+    margin-top: 80px;
+    display: flex;
+}
+
+.specials-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.specials-wrapper .kaart {
+    width: 350px;
+    height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+
+}
+
+.kaart .kaart-foto {
+    position: relative;
+}
+
+.kaart .kaart-foto img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.kaart .kaart-foto .kaart-tag {
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 600;
+    background: var(--primary-color);
+}
+
+.chef-specials-image img {
+    padding: 0 10%;
+    width: 28vw;
+    display: block;
+}
+
+.kaart .kaart-content {
+    line-height: 0.8;
+    margin-top: -11px;
+    padding: 0 4%;
+}
+
+.kaart-content .kaart-titel {
+    color: var(--tweede-tekst-color);
+}
+
+.kaart-content mark {
+    background-color: #ffffff;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.specials-wrapper .kaart:hover {
+    transform: translateY(-10px);
+}
+
+.kaart-lijst {
+    display: flex;
+    gap: 20px;
+}
+
+.specials-container {
+    gap: 50px;
+}
+
+.specials-wrapper {
+    margin-bottom: 100px;
+    justify-items: center;
+}
+
+.specials-wrapper h2, h3 {
+    line-height: 0.4;
+}
+
+.specials-wrapper .specials {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.specials-wrapper h2 {
+    color: var(--tweede-tekst-color);
+    font-size: 32px;
+}
+
+#populair {
+    background-color: #F9F9F9;
+    height: 600px;
+    padding: 0 9%;
+    margin-top: 80px;
+    align-content: center;
+}
+
+/* WAAROM VEGAN FOOD? */
+
+.waarom-vegan-food {
+    background-color: #1CB684; /* Green background */
+    padding: 0 9%;
+    background-image: url('/img/achtergrond-foto.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    height: 500px;
+}
+
+.waarom-vegan-food-h1 {
+    color: #FCF087;
+    margin-bottom: -20px;
+    font-size: 1em;
+    margin-left: -50px;
+    text-align: center;
+}
+
+.waarom-vegan-food-h2 {
+    text-align: center;
+    color: #1E2E3B;
+}
+
+.waarom-vegan-food-container h2, h3 {
+    line-height: 0.4;
+}
+
+.waarom-vegan-food-container .specials {
+    color: var(--highlights-color);
+    font-weight: 700;
+}
+
+.waarom-vegan-food-container  h2 {
+    color: var(--tweede-tekst-color);
+    font-size: 32px;
+}
+
+.waarom-vegan-food {
+    padding: 5vw 8vw 2vw 8vw;
+    text-align: center;
+}
+
+.waarom-vegan-food .kaart1-rand {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    margin-top: 20px;
+}
+
+.waarom-vegan-food .kaart1 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: start;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.waarom-vegan-food .kaart1 i {
+    font-size: 2rem;
+    color: #ff6f00;
+}
+
+.waarom-vegan-food .kaart1 h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1E2E3B;
+    padding: 10px 0px 0px 0;
+    margin-bottom: -8px;
+}
+
+.waarom-vegan-food .kaart1 p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.broccoli, .salade, .discount {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.broccoli {
+    background-color: #1CB684;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.salade {
+    background-color: #FF3E67;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.discount {
+    background-color: #185ADB;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+mark {
+    background-color: #1CB684;
+    color: #FCF087;
+}
+
+/* contact formulier */
+
+#contact {
+    padding: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#contact .tekst {
+    width: 380px;
+}
+
+#contact .tekst h2 {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: .8;
+    margin-bottom: 16px;
+}
+
+#contact .tekst p {
+    margin-bottom: 33px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+#contact .tekst h3 {
+    color: var(--tweede-tekst-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#contact .tekst .tekst-details article {
+    display: flex;
+}
+
+#contact .tekst .tekst-details article .get {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+#contact .tekst .tekst-details article p {
+    font-size: 15px;
+    border-bottom: none;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.volg-ons a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-color);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.volg-ons a:hover{
+    color: white;
+    background-color: var(--tweede-tekst-color);
+    transition: all 0.3s ease;
+}
+
+#contact .form {
+    width: 60%;
+    background: var(--tweede-tekst-color);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#contact .form h4 {
+    font-size: 24px;
+    color: var(--highlights-color);
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+#contact .form p {
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+#contact .form .form-rij {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#contact .form .form-rij input {
+    width: 420%;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    background: #ffffff;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#contact .form .form-col input,
+#contact .form .form-col textarea {
+    width: 93.7%;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    background: #ffffff;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form button {
+    font-size: .9rem;
+    padding: 13px 25px;
+    background: var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+}
+
 /* Hamburger menu */         
 .hamburger {
     background: none;
