@@ -1,0 +1,305 @@
+:root {
+    --primary-color: #1CB684;
+    --tekst-color: white;
+    --tweede-tekst-color: #1E2E3B;
+    --highlights-color: #FCF087;
+    --menu-width: 300px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATIEBAR */
+.mainbar {
+    height: 80px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.35rem 1.5rem;
+}
+
+.logo img {
+    height: 70px;
+}
+
+nav a {
+    color: var(--tekst-color);
+    text-decoration: none;
+}
+
+.nav-links a {
+    margin: 0 1.5rem;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: var(--highlights-color);
+}
+
+.nav-links {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.accessibility-icon {
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.accessibility-icon i {
+    font-size: 1.4rem;
+}
+
+.language-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: #333;
+    border-radius: 300px;
+    padding: 0.4rem 0.9rem;
+}
+
+.language-select select {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    appearance: none;
+    background-repeat: no-repeat, repeat;
+    background-size: .5em auto, 100%;
+    padding-right: 15px;
+    font-size: 1.1rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.language-select select option:checked {
+    color: #000000; /* Grijs */
+}
+/* Lunch en Diner */
+.main-menu{
+    background-color: var(--primary-color);
+}
+
+.menu {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.menu h2, h3{
+    font-family: "Pacifico";
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: white;
+    box-shadow: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    color: black;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 2rem;
+    order: 1;
+    z-index: 6;
+    right: 1.2rem;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #264653;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #1CB684; /* Green background */
+    color: white;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    height: 440px; /* Adjust as needed */
+}
+
+.hero-content {
+    max-width: 60%; /* Adjust based on the layout in the image */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    width: 400px;
+}
+
+.hero p {
+    font-size: 0.8em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.hero button {
+    background-color: #1E2E3B;
+    color: white;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.food-image-overlay {
+    position: absolute;
+    bottom: 0%; /* Adjusted to move the image up */
+    right: -65%; /* Adjusted to move the image further right */
+    width: 120%; /* Increased width to make the image larger */
+    max-width: 800px; /* Increased max-width as well */
+    overflow: hidden;
+}
+
+.food-image-overlay img {
+    width: 100%;
+    display: flex; /* Remove any extra space below the image */
+}
+
+mark {
+    background-color: #1CB684;
+    color: #FCF087;
+}
+
+/* INFORMATIE */
+
+#tijden {
+    height: 20vh;
+}
+
+.tijden-border {
+    display: flex;
+    justify-content: center;
+}
+
+#tijden .locatie {
+    display: flex;
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 5vw 4vw 0vw 0vw;
+    background-image: linear-gradient(rgba( 30, 46, 59, 0.99),rgba(30,46,59, 0.99)), url("/images/background.png");
+    height: 1100px;
+    background-color: #a80000;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-col img {
+    height: 100px;
+}
+
+.footer-col {
+    width: 320px;
+}
+
+.footer-col h4 {
+    color: var(--primary-color);
+    font-family: 'Pacifico';
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer-col li, a  {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-col, a {
+    color: var(--tekst-color);
+        transition: 0.3s ease;
+}
+
+.footer-col .tijd  {
+    color: var(--highlights-color);
+    margin-top: -20px;
+}
+
+.footer-col a:hover {
+    color: var(--highlights-color);
+    padding-left: 6px;
+    transition: 0.3s ease;
+}
+
+
+
+
+@media (min-width: 769px) {
+
+    /* NAVIGATIE BAR */
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 5vw 0vw 0vw 2vw;
+        height: 80vh;
+        display: flex;
+    }
+
+    .footer-col {
+        width: 340px;
+    }
+
+    .footer-col img {
+        height: 10vw;
+    }
+}

@@ -38,7 +38,7 @@
 
 <body>
     <header>
-        <?php include("header1.php"); ?>
+        <?php include("header.php"); ?>
     </header>
     <main class="vacature-site">
         <h1>-Vacatures-</h1>

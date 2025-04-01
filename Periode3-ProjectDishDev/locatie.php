@@ -23,7 +23,7 @@
 
 <body>
     <header>
-        <?php include("header1.php"); ?>
+        <?php include("header.php"); ?>
     </header>
     <main class="openingstijden-locatie">
         <section class="box">

@@ -39,7 +39,7 @@
 
 <body>
     <header>
-        <?php include("header1.php"); ?>
+        <?php include("header.php"); ?>
     </header>
     <main class="main-menu">
         <section class="menu">

@@ -37,7 +37,7 @@
 </head>
 <main>
     <header>
-        <?php include("header1.php"); ?>
+        <?php include("header.php"); ?>
     </header>
     <section id="contact">
         <article class="tekst">

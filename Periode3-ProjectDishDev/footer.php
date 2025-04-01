@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vegan Food // Footer</title>
-    <link rel="stylesheet" href="css/style-MACIEK.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -20,11 +20,11 @@
         </section>
         <section class="footer-col">
             <h4>Informatie</h4>
-            <article><a href="#">Home</a></article>
-            <article><a href="#">Lunch & Diner</a></article>
-            <article><a href="#">Openingstijden & Locatie</a></article>
-            <article><a href="#">Reserveren</a></article>
-            <article><a href="#">Vacatures</a></article>
+            <article><a href="index.php">Home</a></article>
+            <article><a href="lunch&diner.php">Lunch & Diner</a></article>
+            <article><a href="locatie.php">Openingstijden & Locatie</a></article>
+            <article><a href="reserveren.php">Reserveren</a></article>
+            <article><a href="vacatures.php">Vacatures</a></article>
         </section>
         <section class="footer-col">
             <h4>Openingstijden</h4>
