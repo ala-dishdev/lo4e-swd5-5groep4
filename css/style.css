@@ -140,9 +140,9 @@ nav a {
 /* FOOTER */
 
 footer {
-    padding: 5vw 4vw 0vw 0vw;
+    padding: 3vw 2vw;
     background-image: linear-gradient(rgba( 30, 46, 59, 0.99),rgba(30,46,59, 0.99)), url("/images/background.png");
-    height: 1100px;
+    height: 60vh;
     background-color: #a80000;
     background-position: bottom;
     display: flex;
@@ -152,11 +152,11 @@ footer {
 }
 
 .footer-col img {
-    height: 100px;
+    height: 10vh;
 }
 
 .footer-col {
-    width: 320px;
+    width: 28vw;
 }
 
 .footer-col h4 {
@@ -177,7 +177,7 @@ footer {
         transition: 0.3s ease;
 }
 
-.footer-col .tijd  {
+.footer-col {
     color: var(--highlights-color);
     margin-top: -20px;
 }
