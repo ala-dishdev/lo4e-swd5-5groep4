@@ -52,7 +52,7 @@
                 </article>
             </article>
             <article class="food-image-overlay">
-                <img src="img/bio-food-banner-template-with-photo 2.png" alt="Restaurant Achtergrond">
+                <img src="images/bio-food-banner-template-with-photo 2.png" alt="Restaurant Achtergrond">
             </article>
         </section>
 
