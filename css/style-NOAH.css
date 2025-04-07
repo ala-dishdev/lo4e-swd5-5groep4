@@ -649,7 +649,7 @@ nav a {
 
 footer {
     background-image: linear-gradient(rgba(34, 52, 66));
-    height: 30vh;
+    height: 40vh;
     background-position: bottom;
     display: flex;
     justify-content: space-around;
@@ -772,6 +772,7 @@ footer {
     .chef-image img {
         height: 87vh;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -799,5 +800,23 @@ footer {
     footer {
         height: 100vh;
     }
+
+    #contact {
+        display: block;
+    }
+
+    #contact .form .form-rij {
+        display: block;
+        width: 19.5%;
+    }
+
+    #contact .form {
+        width: 80%;
+    }
+
+    #contact .form .form-col {
+        width: 87%;
+    }
+        
 
 }
