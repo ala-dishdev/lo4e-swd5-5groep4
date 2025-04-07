@@ -22,7 +22,7 @@
 
     <title>Vegan Food // Reserveren</title>
     <!-- Favicon kleine afbeelding die wordt weergegeven in de browser-tabbladen -->
-    <link rel="icon" href="images/beeldmerk_logo_vegan_food.png" type="image/x-icon">
+    <link rel="icon" href="img/beeldmerk_logo_vegan_food.png" type="image/x-icon">
     <!-- Link naar stylesheet -->
     <link rel="stylesheet" href="css/style-noah.css">
     <!-- Link naar overige -->

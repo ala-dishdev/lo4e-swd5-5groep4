@@ -1,7 +1,7 @@
 <header>
     <nav class="mainbar">
         <article class="logo">
-            <img src="images/beeldmerk_logo_vegan_food.png" alt="vegan food logo">
+            <img src="img/beeldmerk_logo_vegan_food.png" alt="vegan food logo">
         </article>
         <button class="hamburger" onclick="toggleMenu()">
             <i class="fas fa-bars"></i>

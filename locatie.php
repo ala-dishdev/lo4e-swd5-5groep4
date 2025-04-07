@@ -10,7 +10,7 @@
         content="vegan restaurant amsterdam, plantaardig eten amsterdam, vegan food amsterdam, veganistisch restaurant amsterdam, beste vegan restaurant amsterdam, gezond vegan eten amsterdam, vegan brunch amsterdam, vegan take-away amsterdam, vegan fine dining amsterdam, biologisch vegan restaurant amsterdam, duurzaam eten amsterdam, vegan friendly restaurant amsterdam, vegan burgers amsterdam, vegan sushi amsterdam, vegan pizza amsterdam, vegan desserts amsterdam, vegan ontbijt amsterdam, vegan lunch amsterdam, vegan diner amsterdam, vegan restaurant in het centrum van amsterdam, vegan eetcafé amsterdam, vegan hotspot amsterdam, vegan restaurant jordaan, vegan eten in de pijp, vegan friendly cafés amsterdam">
     <meta name="author" content="Maciek Czerniec">
     <title>Vegan Food // Openingstijden en Locatie</title>
-    <link rel="icon" href="images/beeldmerk_logo_vegan_food.png" type="image/x-icon">
+    <link rel="icon" href="img/beeldmerk_logo_vegan_food.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style-MACIEK.css">
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
@@ -29,7 +29,7 @@
         <section class="box">
             <article class="openingstijden">
                 <article class="icon">
-                    <img src="images/clock.png" alt="">
+                    <img src="img/clock.png" alt="">
                 </article>
                 <h2>Openingstijden</h2>
                 <p>Maandag: 09:00 - 22:00</p>
@@ -55,7 +55,7 @@
             </section>
             <article class="locatie">
                 <article class="icon">
-                    <img src="images/map_pin.png" alt="">
+                    <img src="img/map_pin.png" alt="">
                 </article>
                 <h2>Locatie</h2>
                 <p>Keizersgracht 212, 1016 DX Amsterdam</p>

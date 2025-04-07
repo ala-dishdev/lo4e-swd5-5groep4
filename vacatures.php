@@ -21,7 +21,7 @@
 
     <title>Vegan Food // Vacatures</title>
     <!-- Favicon kleine afbeelding die wordt weergegeven in de browser-tabbladen -->
-    <link rel="icon" href="images/beeldmerk_logo_vegan_food.png" type="image/x-icon">
+    <link rel="icon" href="img/beeldmerk_logo_vegan_food.png" type="image/x-icon">
     <!-- Link naar stylesheet -->
     <link rel="stylesheet" href="css/style-MACIEK.css">
 
@@ -52,7 +52,7 @@
                 <button>Soliciteer Nu!</button>
             </article>
             <article class="vacature">
-                <img src="//mediabank.valkenhorst.nl/imagebank/images/360/846x511/image63552/c392x590.jpg"
+                <img src="//mediabank.valkenhorst.nl/imagebank/img/360/846x511/image63552/c392x590.jpg"
                     alt="Gastvrouw">
                 <h2>Gastvrouw</h2>
                 <p>Gastvrij, enthousiast en servicegericht? Als gastvrouw in ons vegan restaurant zorg je voor een warm

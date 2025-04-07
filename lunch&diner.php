@@ -21,7 +21,7 @@
 
     <title>Vegan Food // Lunch en Diner</title>
     <!-- Favicon kleine afbeelding die wordt weergegeven in de browser-tabbladen -->
-    <link rel="icon" href="images/beeldmerk_logo_vegan_food.png" type="image/x-icon">
+    <link rel="icon" href="img/beeldmerk_logo_vegan_food.png" type="image/x-icon">
     <!-- Link naar stylesheet -->
     <link rel="stylesheet" href="css/style-MACIEK.css">
 
@@ -54,9 +54,9 @@
                         <p>Heerlijke pompoensoep met kruiden en room.</p>
                         <article class="price-container">
                             <article class="allergen-icons">
-                                <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                     title="Bevat Gluten">
-                                <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                     title="Bevat Melk">
                             </article>
                             <button class="price">€7,50</button>
@@ -70,7 +70,7 @@
                         <p>Knapperige artisjokken met dip.</p>
                         <article class="price-container">
                             <article class="allergen-icons">
-                                <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                     title="Bevat Gluten">
                             </article>
                             <button class="price">€8,50</button>
@@ -84,9 +84,9 @@
                         <p>Gegarneerd met pesto, gemarineerde tomaten en zachte stracchino-kaas.</p>
                         <article class="price-container">
                             <article class="allergen-icons">
-                                <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                     title="Bevat Noten">
-                                <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                     title="Bevat Melk">
                             </article>
                             <button class="price">€8,00</button>
@@ -105,9 +105,9 @@
                                 <p>Heerlijke pompoensoep met kruiden en room.</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                             title="Bevat Gluten">
-                                        <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                             title="Bevat Melk">
                                     </article>
                                     <button class="price">€7,50</button>
@@ -122,7 +122,7 @@
                                 <p>Knapperige artisjokken met dip.</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                             title="Bevat Gluten">
                                     </article>
                                     <button class="price">€8,50</button>
@@ -137,9 +137,9 @@
                                 <p>Gegarneerd met pesto, gemarineerde tomaten en zachte stracchino-kaas.</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                             title="Bevat Noten">
-                                        <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                             title="Bevat Melk">
                                     </article>
                                     <button class="price">€8,00</button>
@@ -157,11 +157,11 @@
                         <p>Een klassieker met een plantaardig twist.</p>
                         <article class="price-container">
                             <article class="allergen-icons">
-                                <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                     title="Bevat Melk">
-                                <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                     title="Bevat Noten">
-                                <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                     title="Bevat Soja">
                             </article>
                             <button class="price">€19,50</button>
@@ -175,9 +175,9 @@
                         <p>Rijke, kruidige rendang van jackfruit</p>
                         <article class="price-container">
                             <article class="allergen-icons">
-                                <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                     title="Bevat Noten">
-                                <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                     title="Bevat Soja">
                             </article>
                             <button class="price">€18,50</button>
@@ -191,11 +191,11 @@
                         <p>De lichtste, luchtigste gnocchi in een decadente truffelsaus</p>
                         <article class="price-container">
                             <article class="allergen-icons">
-                                <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                     title="Bevat Soja">
-                                <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                     title="Bevat Melk">
-                                <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                     title="Bevat Noten">
                             </article>
                             <button class="price">€17,50</button>
@@ -209,11 +209,11 @@
                         <p>Heerlijke 100% plantaardige burger</p>
                         <article class="price-container">
                             <article class="allergen-icons">
-                                <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                     title="Bevat Noten">
-                                <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                     title="Bevat Soja">
-                                <img class="allergen-icon" src="images/mosterd.png" alt="Allergie informatie"
+                                <img class="allergen-icon" src="img/mosterd.png" alt="Allergie informatie"
                                     title="Bevat Mosterds">
                             </article>
                             <button class="price">€16,50</button>
@@ -233,11 +233,11 @@
                                 <p>Een klassieker met een plantaardig twist.</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                             title="Bevat Melk">
-                                        <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                             title="Bevat Noten">
-                                        <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                             title="Bevat Soja">
                                     </article>
                                     <button class="price">€19,50</button>
@@ -252,9 +252,9 @@
                                 <p>Rijke, kruidige rendang van jackfruit</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                             title="Bevat Noten">
-                                        <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                             title="Bevat Soja">
                                     </article>
                                     <button class="price">€18,50</button>
@@ -269,11 +269,11 @@
                                 <p>De lichtste, luchtigste gnocchi in een decadente truffelsaus</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                             title="Bevat Soja">
-                                        <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                             title="Bevat Melk">
-                                        <img class="allergen-icon" src="images/noten.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/noten.png" alt="Allergie informatie"
                                             title="Bevat Noten">
                                     </article>
                                     <button class="price">€17,50</button>
@@ -288,11 +288,11 @@
                                 <p>Heerlijke 100% plantaardige burger</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                             title="Bevat Noten">
-                                        <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                             title="Bevat Soja">
-                                        <img class="allergen-icon" src="images/mosterd.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/mosterd.png" alt="Allergie informatie"
                                             title="Bevat Mosterds">
                                     </article>
                                     <button class="price">€16,50</button>
@@ -312,9 +312,9 @@
                                 <p>Rijke chocoladecake met een zachte kern.</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                             title="Bevat Melk">
-                                        <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                             title="Bevat Gluten">
                                     </article>
                                     <button class="price">€8,50</button>
@@ -328,9 +328,9 @@
                                 <p>Dagelijks wisselende smaken.</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                             title="Bevat Melk">
-                                        <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                             title="Bevat Gluten">
                                     </article>
                                     <button class="price">€7,50</button>
@@ -344,9 +344,9 @@
                                 <p>Onze populairste custard nagerecht</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                             title="Bevat Melk">
-                                        <img class="allergen-icon" src="images/gluten2.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/gluten2.png" alt="Allergie informatie"
                                             title="Bevat Gluten">
                                     </article>
                                     <button class="price">€8,00</button>
@@ -366,9 +366,9 @@
                                     <p>Rijke chocoladecake met een zachte kern.</p>
                                     <article class="price-container">
                                         <article class="allergen-icons">
-                                            <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                            <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                                 title="Bevat Melk">
-                                            <img class="allergen-icon" src="images/gluten2.png"
+                                            <img class="allergen-icon" src="img/gluten2.png"
                                                 alt="Allergie informatie" title="Bevat Gluten">
                                         </article>
                                         <button class="price">€8,50</button>
@@ -383,9 +383,9 @@
                                     <p>Dagelijks wisselende smaken.</p>
                                     <article class="price-container">
                                         <article class="allergen-icons">
-                                            <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                            <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                                 title="Bevat Melk">
-                                            <img class="allergen-icon" src="images/gluten2.png"
+                                            <img class="allergen-icon" src="img/gluten2.png"
                                                 alt="Allergie informatie" title="Bevat Gluten">
                                         </article>
                                         <button class="price">€7,50</button>
@@ -400,9 +400,9 @@
                                     <p>Onze populairste custard nagerecht</p>
                                     <article class="price-container">
                                         <article class="allergen-icons">
-                                            <img class="allergen-icon" src="images/melk.png" alt="Allergie informatie"
+                                            <img class="allergen-icon" src="img/melk.png" alt="Allergie informatie"
                                                 title="Bevat Melk">
-                                            <img class="allergen-icon" src="images/gluten2.png"
+                                            <img class="allergen-icon" src="img/gluten2.png"
                                                 alt="Allergie informatie" title="Bevat Gluten">
                                         </article>
                                         <button class="price">€8,00</button>
@@ -423,9 +423,9 @@
                                     <p>Geniet van onze zoete frietjes.</p>
                                     <article class="price-container">
                                         <article class="allergen-icons">
-                                            <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                            <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                                 title="Bevat Soja">
-                                            <img class="allergen-icon" src="images/gluten2.png"
+                                            <img class="allergen-icon" src="img/gluten2.png"
                                                 alt="Allergie informatie" title="Bevat Gluten">
                                         </article>
                                         <button class="price">€4,50</button>
@@ -438,7 +438,7 @@
                                     <p>Iets om fit te blijven.</p>
                                     <article class="price-container">
                                         <article class="allergen-icons">
-                                            <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                            <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                                 title="Bevat Soja">
                                         </article>
                                         <button class="price">€4,00</button>
@@ -451,7 +451,7 @@
                                     <p>Beste groente voor elke seizoen</p>
                                     <article class="price-container">
                                         <article class="allergen-icons">
-                                            <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                            <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                                 title="Bevat Soja">
                                         </article>
                                         <button class="price">€4,50</button>
@@ -472,9 +472,9 @@
                                     <p>Geniet van onze zoete frietjes.</p>
                                     <article class="price-container">
                                         <article class="allergen-icons">
-                                            <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                            <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                                 title="Bevat Soja">
-                                            <img class="allergen-icon" src="images/gluten2.png"
+                                            <img class="allergen-icon" src="img/gluten2.png"
                                                 alt="Allergie informatie" title="Bevat Gluten">
                                         </article>
                                         <button class="price">€4,50</button>
@@ -490,7 +490,7 @@
                                 <p>Iets om fit te blijven.</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                             title="Bevat Soja">
                                     </article>
                                     <button class="price">€4,00</button>
@@ -505,7 +505,7 @@
                                 <p>Beste groente voor elke seizoen</p>
                                 <article class="price-container">
                                     <article class="allergen-icons">
-                                        <img class="allergen-icon" src="images/soja.png" alt="Allergie informatie"
+                                        <img class="allergen-icon" src="img/soja.png" alt="Allergie informatie"
                                             title="Bevat Soja">
                                     </article>
                                     <button class="price">€4,50</button>
