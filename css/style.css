@@ -213,56 +213,6 @@ nav a {
     display: flex;
 }
 
-/* FOOTER */
-
-footer {
-    padding: 3vw 2vw;
-    background-image: linear-gradient(rgba( 30, 46, 59, 0.99),rgba(30,46,59, 0.99)), url("/images/background.png");
-    height: 60vh;
-    background-color: #a80000;
-    background-position: bottom;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.footer-col img {
-    height: 10vh;
-}
-
-.footer-col {
-    width: 28vw;
-}
-
-.footer-col h4 {
-    color: var(--primary-color);
-    font-family: 'Pacifico';
-    font-size: 24px;
-    font-weight: 300;
-}
-
-.footer-col li, a  {
-    list-style: none;
-    text-decoration: none;
-    margin-bottom: 8px;
-}
-
-.footer-col, a {
-    color: var(--tekst-color);
-        transition: 0.3s ease;
-}
-
-.footer-col {
-    color: var(--highlights-color);
-    margin-top: -20px;
-}
-
-.footer-col a:hover {
-    color: var(--highlights-color);
-    padding-left: 6px;
-    transition: 0.3s ease;
-}
 
 @media (max-width: 768px) {
     .nav-links-desktop {

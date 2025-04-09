@@ -47,8 +47,8 @@
                 <h1>Meet, Eat &<br> Enjoy The <mark>Real <br>Taste</mark>.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum rhoncus efficitur. Vivamus
                     pharetra consequat neque, sed sodales est consectetur.</p>
-                <a href="reserveren.html"><button class="reserveren-btn">Reserveren</button></a>
-                <a href="contact.html"><button class="contact-btn">Contact</button></a>
+                <a href="reserveren.php"><button class="reserveren-btn">Reserveren</button></a>
+                <a href="vacatures.php"><button class="contact-btn">Vacatures</button></a>
             </article>
             <article class="food-image-overlay">
                 <img src="img/bio-food-banner-template-with-photo 2.png" alt="Restaurant Achtergrond">
