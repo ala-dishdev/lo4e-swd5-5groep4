@@ -52,8 +52,7 @@
                 <button>Soliciteer Nu!</button>
             </article>
             <article class="vacature">
-                <img src="//mediabank.valkenhorst.nl/imagebank/img/360/846x511/image63552/c392x590.jpg"
-                    alt="Gastvrouw">
+                <img src="img/gastvrouw.jpg" alt="Gastvrouw">
                 <h2>Gastvrouw</h2>
                 <p>Gastvrij, enthousiast en servicegericht? Als gastvrouw in ons vegan restaurant zorg je voor een warm
                     welkom.</p>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <!-- Zorgt ervoor dat de pagina correct wordt weergegeven op mobiele apparaten. -->
@@ -7,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- SEO (search enige optimation) Metagegevens -->
     <!-- Description voor zoekmachines en sociale media, omschrijft kort de inhoud van de pagina. -->
-    <meta name="description" content="Geniet van heerlijk plantaardig eten bij ons vegan restaurant in Amsterdam. Verse, duurzame en smaakvolle vegan gerechten voor ontbijt, lunch en diner!">
+    <meta name="description"
+        content="Geniet van heerlijk plantaardig eten bij ons vegan restaurant in Amsterdam. Verse, duurzame en smaakvolle vegan gerechten voor ontbijt, lunch en diner!">
     <!-- Keywords helpt zoekmachines begrijpen waar de pagina over gaat. -->
     <meta name="Keywords" content="vegan restaurant amsterdam, plantaardig eten amsterdam, vegan food amsterdam, veganistisch restaurant amsterdam, beste vegan restaurant amsterdam, 
     gezond vegan eten amsterdam, vegan brunch amsterdam, vegan take-away amsterdam, vegan fine dining amsterdam, biologisch vegan restaurant amsterdam, 
@@ -21,24 +23,30 @@
     <!-- Favicon kleine afbeelding die wordt weergegeven in de browser-tabbladen -->
     <link rel="icon" href="img/beeldmerk_logo_vegan_food.png" type="image/x-icon">
     <!-- Link naar stylesheet -->
-    <link rel="stylesheet" href="css/style-noah.css">
+    <link rel="stylesheet" href="css/style-NOAH.css">
     <!-- Link naar fonts -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- Link naar overige -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
     <header>
-    <?php include("header.php"); ?>   
+        <?php include("header.php"); ?>
     </header>
     <main>
 
         <section class="hero">
             <article class="hero-content">
                 <h1>Meet, Eat &<br> Enjoy The <mark>Real <br>Taste</mark>.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum rhoncus efficitur. Vivamus pharetra consequat neque, sed sodales est consectetur.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum rhoncus efficitur. Vivamus
+                    pharetra consequat neque, sed sodales est consectetur.</p>
                 <a href="reserveren.html"><button class="reserveren-btn">Reserveren</button></a>
                 <a href="contact.html"><button class="contact-btn">Contact</button></a>
             </article>
@@ -118,22 +126,26 @@
                         <article class="broccoli">
                             <img src="img/broccoli.png" alt="broccoli">
                         </article>
-                      <h3>100% Vegan</h3>
-                      <p>Bij ons is alles 100% vegan! Van ontbijt tot diner, we serveren enkel plantaardige gerechten die niet alleen lekker, maar ook duurzaam zijn. Geniet van een bewuste keuze voor zowel je gezondheid als de planeet!</p>
+                        <h3>100% Vegan</h3>
+                        <p>Bij ons is alles 100% vegan! Van ontbijt tot diner, we serveren enkel plantaardige gerechten
+                            die niet alleen lekker, maar ook duurzaam zijn. Geniet van een bewuste keuze voor zowel je
+                            gezondheid als de planeet!</p>
                     </article>
                     <article class="kaart">
                         <article class="salade">
                             <img src="img/salade.png" alt="salade">
                         </article>
-                      <h3>Vers Bereid Eten</h3>
-                      <p>Alle gerechten worden met zorg en liefde vers bereid, direct van de keuken naar jouw tafel. Zo garanderen we de beste smaak en kwaliteit in elke maaltijd!</p>
+                        <h3>Vers Bereid Eten</h3>
+                        <p>Alle gerechten worden met zorg en liefde vers bereid, direct van de keuken naar jouw tafel.
+                            Zo garanderen we de beste smaak en kwaliteit in elke maaltijd!</p>
                     </article>
                     <article class="kaart">
                         <article class="discount">
                             <img src="img/discount.png" alt="discount">
                         </article>
-                      <h3>Vouchers Beschikbaar</h3>
-                      <p>Geef het cadeau van smaak en duurzaamheid! Onze vouchers zijn het perfecte geschenk voor elke vegan-liefhebber. Verkrijgbaar in verschillende bedragen!</p>
+                        <h3>Vouchers Beschikbaar</h3>
+                        <p>Geef het cadeau van smaak en duurzaamheid! Onze vouchers zijn het perfecte geschenk voor elke
+                            vegan-liefhebber. Verkrijgbaar in verschillende bedragen!</p>
                     </article>
                 </article>
             </article>
@@ -237,6 +249,6 @@
         </section>
     </main>
     <footer>
-    <?php include("footer.php"); ?>
+        <?php include("footer.php"); ?>
     </footer>
 </body>
