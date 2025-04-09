@@ -203,6 +203,26 @@ nav a {
     color: var(--highlights-color);
 }
 
+.nav-links-desktop button{
+    background-color: #ffffff;
+    color: var(--tweede-tekst-color);
+    border-radius: 20px;
+    width: 10vw;
+    height: 6vh;
+    align-self: center;
+    transition: 0.4s ease;
+    font-family: "Poppins";
+}
+
+.nav-links-desktop button:hover{
+    background-color:#264653;
+    color: white;
+}
+
+.nav-links-desktop button a{
+    color: var(--tweede-tekst-color);
+}
+
 .nav-links-desktop {
     display: flex;
     align-items: center;
@@ -212,7 +232,6 @@ nav a {
 .nav-right-desktop {
     display: flex;
 }
-
 /* FOOTER */
 
 footer {
@@ -274,18 +293,29 @@ footer {
     .hamburger{
         display: flex;
     }
+
     footer {
-        padding: 5vw 0vw 0vw 2vw;
-        height: 80vh;
-        display: flex;
+        height: 100vh;
     }
 
-    .footer-col {
-        width: 340px;
+    .nav-links button{
+        background-color: #ffffff;
+        color: var(--tweede-tekst-color);
+        border-radius: 20px;
+        width: 20vw;
+        height: 6vh;
+        align-self: center;
+        transition: 0.4s ease;
+        font-family: "Poppins";
     }
-
-    .footer-col img {
-        height: 10vw;
+    
+    .nav-links button:hover{
+        background-color:#264653;
+        color: white;
+    }
+    
+    .nav-links button a{
+        color: var(--tweede-tekst-color);
     }
 }
 @media (min-width: 769px) {

@@ -1,5 +1,6 @@
 <head>
     <script src="JS/hamburgermenu.js" defer></script>
+    <script src="JS/toegankelijkheid.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
@@ -14,6 +15,7 @@
             <a href="locatie.php">Openingstijden & Locatie</a>
             <a href="reserveren.php">Reserveren</a>
             <a href="vacatures.php">Vacatures</a>
+            <button class="toegankelijkheid">Toegankelijkheid</button>
         </article>
         <article class="nav-right-desktop">
             <a href="#" class="accessibility-icon">
@@ -37,6 +39,7 @@
                 <a href="locatie.php">Openingstijden & Locatie</a>
                 <a href="reserveren.php">Reserveren</a>
                 <a href="vacatures.php">Vacatures</a>
+                <button class="toegankelijkheid" id="accessibility">Toegankelijkheid</button>
             </article>
             <article class="nav-right">
                 <a href="#" class="accessibility-icon">

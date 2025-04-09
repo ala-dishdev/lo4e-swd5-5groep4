@@ -104,6 +104,20 @@ nav a {
     right: 1.2rem;
 }
 
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.high-contrast, main.high-contrast {
+    background-color: #000000;
+    color: #ffff00;
+}
+
+body.large-font {
+    font-size: 1.2rem;
+}
+
 /* Lunch en Diner */
 .main-menu{
     background-color: var(--primary-color);
@@ -281,6 +295,10 @@ button.next {
     .section-voorgerecht-desktop{
         display: none;
     }
+    
+    body.large-font {
+        font-size: 1.2rem;
+    }
 }
 /* Openingstijden en Locatie */ 
 .openingstijden-locatie {
@@ -350,7 +368,7 @@ button.next {
     height: auto;
     border-radius: 5px;
     align-self: flex-start;
-    margin-top: -20vh;
+    margin-top: -25vh;
 }
 
 .image-gallery img:nth-child(3) {
