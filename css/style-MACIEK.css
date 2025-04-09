@@ -295,10 +295,21 @@ button.next {
     .section-voorgerecht-desktop{
         display: none;
     }
-    
-    body.large-font {
-        font-size: 1.2rem;
-    }
+
+   body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.high-contrast, main.high-contrast {
+    background-color: #000000;
+    color: #ffff00;
+}
+
+body.large-font {
+    font-size: 1.2rem;
+}
+
 }
 /* Openingstijden en Locatie */ 
 .openingstijden-locatie {
