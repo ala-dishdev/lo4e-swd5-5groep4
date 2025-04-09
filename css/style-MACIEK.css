@@ -42,7 +42,7 @@ nav a {
 }
 
 .nav-links {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -582,18 +582,32 @@ iframe {
     }
 
     .vacatures{
-        display: block;
-        flex-direction: column;
-        align-items: center;
-        overflow-y: hidden;
-        overflow-x: hidden;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 20px; 
+        margin: 0 auto; 
+        padding: 20px; 
     }
 
     .vacature{
-        width: 100%;
-        height: auto;
+        width: 50%;
+        height: 150%;
         padding-bottom: 20px;
-        min-height: 40vh;
+        min-height: 50vh;
+        justify-content: center;
+    }
+    
+    .vacature p{
+        font-size: 0.8rem;
+    }
+
+    .vacature button{
+        width: 70%;
+        height: 5vh;
+        font-size: 1rem;
+        margin-bottom: 15px;
     }
 
     .vacature-site h5{
@@ -607,7 +621,7 @@ iframe {
 
     .vacature img{
         height: auto;
-        max-height: 30vh;
+        max-height: 60vh;
         object-fit: cover;
 }
 
@@ -665,10 +679,6 @@ footer {
 @media (min-width: 768px) {
 
     /* NAVIGATIE BAR */
-    .hamburger {
-        display: none;
-    }
-
     .nav-links {
         display: flex;
         justify-content: space-between;
@@ -683,6 +693,20 @@ footer {
 
     .nav-right{
         display: flex;
+    }
+
+    .nav-links {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu-popup {
+        display: none;
     }
 
 

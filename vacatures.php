@@ -52,7 +52,7 @@
                 <button>Soliciteer Nu!</button>
             </article>
             <article class="vacature">
-                <img src="img/gastvrouw.jpg" alt="Gastvrouw">
+                <img src="img/gastvrouw.png" alt="Gastvrouw">
                 <h2>Gastvrouw</h2>
                 <p>Gastvrij, enthousiast en servicegericht? Als gastvrouw in ons vegan restaurant zorg je voor een warm
                     welkom.</p>
