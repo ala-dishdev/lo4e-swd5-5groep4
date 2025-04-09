@@ -3,12 +3,16 @@
     --tekst-color: white;
     --tweede-tekst-color: #1E2E3B;
     --highlights-color: #FCF087;
+    --background-color: #F9F9F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Arial', sans-serif;
 }
 
 /* NAVIGATIEBAR */
@@ -40,7 +44,6 @@ nav a {
 }
 
 .nav-links {
-    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -87,10 +90,6 @@ nav a {
 .language-select select option:checked {
     color: #000000; /* Grijs */
 }
-/* Lunch en Diner */
-.main-menu{
-    background-color: var(--primary-color);
-}
 
 .hamburger {
     background: none;
@@ -107,46 +106,52 @@ nav a {
 }
 
 /* HERO */
-
-#hero {
-    display: flex;
-    color: var(--tekst-color);
-    padding: 0 5%;
+.hero {
+    background-color: #1CB684; /* Green background */
+    color: white;
+    padding: 20px;
     position: relative;
-    height: 120vh;
-    margin-top: -100px;
-    background-color: var(--primary-color);
+    overflow: hidden;
+    height: 450px; /* Adjust as needed */
 }
 
-.hero-content {
-    margin-top: 100px;
-    max-width: 60%; /* Adjust based on the layout in the image */
-}
-
-#hero h1 {
-    font-size: 4.7vw;
-    margin-bottom: 10px;
-    line-height: 1.4;
-    width: 100vh;
-}
-
-#hero p {
-    font-size: 1.2rem;
-    line-height: 1.4;
-    width: 30vw;
-}
-
-.hero-content mark {
+.hero mark {
     background-color: #1CB684;
     color: #FCF087;
 }
 
-#hero .button {
+.logo {
+    height: 30px; /* Adjust as needed */
+}
+
+.language {
+    font-size: 0.8em;
+}
+
+.hero-content {
+    max-width: 60%; /* Adjust based on the layout in the image */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    width: 400px;
+}
+
+.hero p {
+    font-size: 0.8em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.hero .button {
     display: flex;
     gap: 15px;
 }
 
-#hero .reserveren-btn {
+.hero .reserveren-btn {
     background: rgb(30,46,59);
     background: linear-gradient(117deg, rgba(30,46,59,1) 37%, rgba(46,66,83,1) 100%);
     color: white;
@@ -161,7 +166,7 @@ nav a {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
-#hero .contact-btn {
+.hero .contact-btn {
     background: rgb(255,255,255);
     background: linear-gradient(132deg, rgba(255,255,255,1) 27%, rgba(244,243,243,1) 64%, rgba(171,171,171,1) 100%);
     color: var(--tweede-tekst-color);
@@ -175,21 +180,17 @@ nav a {
     font-family: 'Inter';
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
-
 .food-image-overlay {
     position: absolute;
     bottom: 0%; /* Adjusted to move the image up */
-    right: 0%; /* Adjusted to move the image further right */
-    width: 100%; /* Increased width to make the image larger */
-    max-width: 1200px; /* Increased max-width as well */;
+    right: -65%; /* Adjusted to move the image further right */
+    width: 120%; /* Increased width to make the image larger */
+    max-width: 1000px; /* Increased max-width as well */
     overflow: hidden;
 }
 
 .food-image-overlay img {
-    height: 1000px;
-    width: 1300px;
-    object-fit: cover;
-    object-position: bottom;
+    width: 100%;
     display: block; /* Remove any extra space below the image */
 }
 
@@ -199,7 +200,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 30vh;
     color: #000;
     background-color: #fff;
 }
@@ -214,19 +215,17 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 75px;
+    border-radius: 50%;
 }
 
 .informatie-rand {
-    display: flex;
-    padding: 30px;
-    gap: 180px;
+    display: grid;
+    gap: 15px;
 }
 
 .informatie-kaart {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
 }
 
@@ -235,18 +234,36 @@ nav a {
     justify-content: center;
 }
 
-.tekst h3 {
-    margin-bottom: -16px;
-}
-
 /* OVER ONS */
 
 #over-ons {
-    background-color: #F9F9F9;
-    height: 800px;
-    padding: 0 9%;
+    background-color: var(--background-color);
+    padding: 10% 15%;
+    height: 102vh;
     display: flex;
+}
 
+#over-ons h2 {
+    color: var(--tweede-tekst-color);
+}
+
+#over-ons h2 mark {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+#over-ons h3 {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#over-ons h2 {
+    font-size: 40px;
+}
+
+.over-ons-tekststuk p {
+    padding: 10px 0;
 }
 
 .over-ons-container {
@@ -257,36 +274,6 @@ nav a {
 .over-ons-tekst {
     justify-content: center;
     align-items: center;
-}
-
-#over-ons h3 {
-    color: var(--primary-color);
-    font-size: 20px;
-}
-
-#over-ons h2 {
-    font-size: 40px;
-}
-
-#over-ons p {
-    width: 60%;
-}
-
-#over-ons h2 mark {
-    background-color: #F9F9F9;
-    color: var(--primary-color);
-
-}
-
-.over-ons-tekst {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.chef-image img {
-    width: 50vw;
-    max-width: 910px;
-    display: block;
 }
 
 .lijn:before{
@@ -309,8 +296,8 @@ nav a {
     position: relative;
     max-width: 330px;
     margin: 10px 0;
-    text-align: center;
-  }
+    padding-left: 40px;
+}
 
 .lees-meer-btn {
     background: rgb(28,182,132);
@@ -328,12 +315,100 @@ nav a {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
+.chef-image img {
+    display: block;
+    padding: 0 15%;
+    height: 25vh;
+    margin-top: -20px;
+    transform: scaleX(-1);
+}
+
+/* WAT ONS ONDERSCHEIDT */
+
+#waarom-vegan-food {
+    background-image: url('/img/achtergrond-foto.png');
+    margin-top: 80px;
+    background-color: var(--primary-color);
+    padding: 10% 8%;
+}
+
+#waarom-vegan-food h3 {
+    color: var(--highlights-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#waarom-vegan-food h2 {
+    color: var(--tweede-tekst-color);
+    font-size: 40px;
+}
+
+#waarom-vegan-food .kaart-rand {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    margin-top: 20px;
+}
+
+#waarom-vegan-food .kaart {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: start;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+#waarom-vegan-food .kaart i {
+    font-size: 2rem;
+    color: #ff6f00;
+}
+
+#waarom-vegan-food .kaart h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1E2E3B;
+    padding: 10px 0px 0px 0;
+    margin-bottom: -8px;
+}
+
+#waarom-vegan-food .kaart p {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.broccoli, .salade, .discount {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.broccoli {
+    background-color: #1CB684;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.salade {
+    background-color: #FF3E67;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.discount {
+    background-color: #185ADB;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
 /* SPECIALS */
 
 #specials {
     background-color: #F9F9F9;
     height: 600px;
-    padding: 0 9%;
+    padding: 0;
     justify-items: center;
     margin-top: 80px;
     display: flex;
@@ -353,7 +428,6 @@ nav a {
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
-
 }
 
 .kaart .kaart-foto {
@@ -370,7 +444,7 @@ nav a {
 .kaart .kaart-foto .kaart-tag {
     position: absolute;
     left: 15px;
-    top: 0px;
+    top: 10px;
     border-radius: 30px;
     padding: 5px 15px;
     color: #fff;
@@ -385,9 +459,8 @@ nav a {
 }
 
 .kaart .kaart-content {
-    line-height: 0.8;
     margin-top: -11px;
-    padding: 0 4%;
+    padding: 4% 4%;
 }
 
 .kaart-content .kaart-titel {
@@ -419,10 +492,6 @@ nav a {
     justify-items: center;
 }
 
-.specials-wrapper h2, h3 {
-    line-height: 0.4;
-}
-
 .specials-wrapper .specials {
     color: var(--primary-color);
     font-weight: 700;
@@ -441,117 +510,7 @@ nav a {
     align-content: center;
 }
 
-/* WAAROM VEGAN FOOD? */
-
-.waarom-vegan-food {
-    background-color: #1CB684; /* Green background */
-    padding: 0 9%;
-    background-image: url('/img/achtergrond-foto.png');
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-    height: 500px;
-}
-
-.waarom-vegan-food-h1 {
-    color: #FCF087;
-    margin-bottom: -20px;
-    font-size: 1em;
-    margin-left: -50px;
-    text-align: center;
-}
-
-.waarom-vegan-food-h2 {
-    text-align: center;
-    color: #1E2E3B;
-}
-
-.waarom-vegan-food-container h2, h3 {
-    line-height: 0.4;
-}
-
-.waarom-vegan-food-container .specials {
-    color: var(--highlights-color);
-    font-weight: 700;
-}
-
-.waarom-vegan-food-container  h2 {
-    color: var(--tweede-tekst-color);
-    font-size: 32px;
-}
-
-.waarom-vegan-food {
-    padding: 5vw 8vw 2vw 8vw;
-    text-align: center;
-}
-
-.waarom-vegan-food .kaart1-rand {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 2rem;
-    margin-top: 20px;
-}
-
-.waarom-vegan-food .kaart1 {
-    background-color: #ffffff;
-    border-radius: 20px;
-    padding: 2rem;
-    text-align: start;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-}
-
-.waarom-vegan-food .kaart1 i {
-    font-size: 2rem;
-    color: #ff6f00;
-}
-
-.waarom-vegan-food .kaart1 h3 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #1E2E3B;
-    padding: 10px 0px 0px 0;
-    margin-bottom: -8px;
-}
-
-.waarom-vegan-food .kaart1 p {
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: 'Inter', sans-serif;
-}
-
-.broccoli, .salade, .discount {
-    height: 70px;
-    width: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-}
-
-.broccoli {
-    background-color: #1CB684;
-    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
-}
-
-.salade {
-    background-color: #FF3E67;
-    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
-}
-
-.discount {
-    background-color: #185ADB;
-    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.6);
-}
-
-mark {
-    background-color: #1CB684;
-    color: #FCF087;
-}
-
-/* contact formulier */
+/* CONTACT */
 
 #contact {
     padding: 8vw;
@@ -684,4 +643,180 @@ mark {
     font-weight: 600;
     cursor: pointer;
     color: #ffffff;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: linear-gradient(rgba(34, 52, 66));
+    height: 40vh;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-col img {
+    height: 100px;
+}
+
+.footer-col {
+    width: 320px;
+    padding-top: 8%;
+}
+
+.footer-col h4 {
+    color: var(--primary-color);
+    font-family: 'Pacifico';
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer-col li, a  {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-col, a {
+    color: var(--tekst-color);
+    transition: 0.3s ease;
+}
+
+.footer-col .tijd  {
+    color: var(--highlights-color);
+}
+
+.footer-col a:hover {
+    color: var(--highlights-color);
+    padding-left: 6px;
+    transition: 0.3s ease;
+}
+
+@media (min-width: 769px) {
+
+    .hero {
+        color: white;
+        padding: 0px 8vw;
+        position: relative;
+        overflow: hidden;
+        height: 50vw; /* Adjust as needed */
+    }
+
+    .hero-content {
+        max-width: 60%; /* Adjust based on the layout in the image */
+    }
+    
+    .hero h1 {
+        font-size: 4.7vw;
+        margin-bottom: 10px;
+        line-height: 1.4;
+        width: 100vh;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        width: 30vw;
+    }
+    
+    .hero button {
+        background-color: #1E2E3B;
+        color: white;
+        padding: 16px 30px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: 700;
+        font-family: 'Poppins';
+    }
+    
+    .food-image-overlay {
+        position: absolute;
+        bottom: 0%; /* Adjusted to move the image up */
+        right: 0%; /* Adjusted to move the image further right */
+        width: 60%; /* Increased width to make the image larger */
+        max-width: 75%;
+        overflow: hidden;
+    }
+
+    #over-ons {
+        height: 50vh;
+    }
+    
+    .food-image-overlay img {
+        width: 100%;
+        display: block; /* Remove any extra space below the image */
+    }
+
+    .informatie-rand {
+        display: flex;
+        gap: 200px;
+    }
+
+    #over-ons {
+        padding: 1% 15%;
+        height: 80vh;
+    }
+
+    .over-ons-tekst {
+        display: flex;
+    }
+
+    .chef-image {
+        width: 50vw;
+    }
+
+    .chef-image img {
+        height: 87vh;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #populair {
+        padding: 8%;
+        height: 160vh;
+    }
+
+    #specials {
+        height: 140vh;
+        display: flex;
+        padding: 0 5%;
+    }
+    .kaart-lijst {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 2rem;
+    }
+
+    .chef-specials-image img {
+        display: none;
+    }
+
+    footer {
+        height: 100vh;
+    }
+
+    #contact {
+        display: block;
+    }
+
+    #contact .form .form-rij {
+        display: block;
+        width: 19.5%;
+    }
+
+    #contact .form {
+        width: 80%;
+    }
+
+    #contact .form .form-col {
+        width: 87%;
+    }
+        
+
 }

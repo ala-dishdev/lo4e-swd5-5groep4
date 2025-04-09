@@ -7,16 +7,14 @@
     <title>Vegan Food // Footer</title>
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/flag-icons.min.css">
 </head>
 
 <body>
     <footer>
         <section class="footer-col">
-            <img src="images/beeldmerk_logo_vegan_food.png" alt="Vegan Food Amsterdam">
+            <img src="img/beeldmerk_logo_vegan_food.png" alt="Vegan Food Amsterdam">
         </section>
         <section class="footer-col">
             <h4>Informatie</h4>
