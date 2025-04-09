@@ -213,6 +213,7 @@ nav a {
     display: flex;
 }
 
+/* FOOTER */
 
 @media (max-width: 768px) {
     .nav-links-desktop {
@@ -260,11 +261,6 @@ nav a {
     }
     
     /* FOOTER */
-    footer {
-        padding: 5vw 0vw 0vw 2vw;
-        height: 80vh;
-        display: flex;
-    }
 
     .footer-col {
         width: 340px;
