@@ -98,7 +98,11 @@ nav a {
     padding: 40px 20px;
 }
 
-.menu h2, h3{
+.menu h2 {
+    font-family: "Pacifico";
+}
+
+.menu h3{
     font-family: "Pacifico";
 }
 
@@ -291,7 +295,6 @@ footer {
     padding: 5vw 4vw 0vw 0vw;
     background-image: linear-gradient(rgba( 30, 46, 59, 0.99),rgba(30,46,59, 0.99)), url("/images/background.png");
     height: 1100px;
-    background-color: #a80000;
     background-position: bottom;
     display: flex;
     justify-content: space-around;
